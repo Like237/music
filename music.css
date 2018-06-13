@@ -1,0 +1,171 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+
+.box{
+    width: 360px;
+    height: 210px;
+    border: 2px solid #CCCCCC;
+    box-shadow: 2px 2px 2px  #CCCCCC;
+    border-radius: 10px;
+    margin: 100px auto;
+    background-color: #fbfbfb;
+    overflow: hidden;
+}
+
+.top{
+    width: 360px;
+    height: 100px;
+    float: left;
+    /*border: 1px solid black;*/
+}
+.top p,h4{
+    width: 360px;
+    text-align: center;
+
+}
+
+.top p{
+    margin-top: 30px;
+    font-weight: 600;
+    color: #b8bab9;
+}
+
+.top h4{
+    margin-top: 5px;
+    color: #9b9b9b;
+}
+
+.middle{
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+
+#time,#timer{
+    width: 50px;
+    height: 20px;
+    margin-left: 30px;
+    line-height: 50px;
+    font-family: '思源宋体';
+    font-weight: 600;
+    color: #b8bab9;
+}
+
+.middle .process {
+    width: 150px;
+    height: 1px;
+    background-color: #ccc;
+    float: left;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.middle .front-pro{
+    width: 2.5px;
+    height: 1px;
+    background-color: #858585;
+    position: relative;
+}
+
+.middle .circle{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #6c6c6c;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+
+
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+    margin-right: 30px;
+}
+
+#timer{
+    margin-left: 0;
+}
+
+.bottom{
+    width: 360px;
+    height: 60px;
+    float: left;
+    background-color: #dfe1e0;
+    border-top: 1px solid #e5e7e6;
+
+}
+
+.bottom .bt-left{
+    width: 110px;
+    height: 60px;
+    float: left;
+}
+
+.bt-left, .bt-mid, .bt-right{
+    position: relative;
+}
+
+.bt-right{
+    width: 108px;
+    height: 60px;
+    float: left;
+}
+
+.bottom .bt-mid{
+    width: 140px;
+    height: 60px;
+    float: left;
+}
+
+.bottom .bt-left,.bt-mid{
+    border-right: 1px solid #e5e7e6;
+}
+
+.bottom span{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.bt-left span{
+    left: 45px;
+    top: 19px;
+    height: 20px;
+    background: url("player.png") no-repeat 0 -30px;
+}
+
+.bt-mid span{
+    left: 63px;
+    top: 15px;
+    background: url("player.png") no-repeat;
+
+}
+
+.bt-right span{
+    left: 43px;
+    top: 19px;
+    height: 20px;
+    background: url("player.png") no-repeat 0 -52px;
+}
+
+
+
+
+
+
